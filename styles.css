@@ -1,0 +1,317 @@
+:root {
+    --primary: #ec682c;
+    --secondary: #4b40c5;
+    --white: #ffffff;
+}
+
+html,
+body {
+    margin: 0px;
+    font-family: "Lato", sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+h3 {
+    font-size: 1.6rem;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.hero-section {
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    >.header {
+        position: relative;
+        width: 100%;
+        height: 80px;
+        padding: 20px 30px 20px 30px;
+        box-sizing: border-box;
+
+        >.branding {
+            width: 5%;
+        }
+
+        >.authentication {
+            width: 30%;
+        }
+
+        >.navigation {
+            width: 65%;
+            padding: 0 20px;
+
+            >ul {
+                list-style-type: none;
+                display: flex;
+                justify-content: space-around;
+
+                >li {
+                    font-size: 1.5rem;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
+
+.btn {
+    width: 100%;
+    height: 50px;
+    border: none;
+    color: var(--white);
+    border-radius: 10px;
+    font-family: "Lato", sans-serif;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background: var(--primary);
+}
+
+.btn-secondary {
+    background: var(--secondary);
+}
+
+.content-section {
+    width: 100%;
+    height: calc(100% - 80px);
+    padding: 30px;
+    box-sizing: border-box;
+
+    >.content {
+        >h1 {
+            color: var(--secondary);
+        }
+
+        >h3 {
+            color: var(--white);
+        }
+    }
+}
+.category{
+        >h4{
+            color: var(--secondary);
+            color: #4B40C5;
+            text-align: center;
+            font-family: Poppins;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: normal;
+        }
+        >.head1{
+            text-align: center;
+            font-family: Poppins;
+            font-size: 62px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            text-transform: capitalize;
+        }
+        .container{
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            height: 50vh;
+        }
+        .square{
+            width: 200px;
+            height: 200px;
+            margin-left: 100px;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+        }
+        h4{
+            text-align: center;
+            font-family: Poppins;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+}
+.selling{
+    >h4{
+        color: var(--secondary);
+        color: #4B40C5;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+    
+    >.head2{
+        text-align: center;
+        font-family: Poppins;
+        font-size: 62px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: capitalize;
+    }
+    }
+    .card {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+      }
+      img {
+        border-radius: 10px 10px 0 0;
+      }
+      .container1:hover {
+        box-shadow: 16px 16px 16px 0 rgba(0,0,0,0.2);
+      }
+      .container1{
+        box-shadow: 0 0px 8px 0 rgba(0,0,0,0.4);
+        transition: 0.5s;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 50px;
+        border-radius: 10px 10px 0 0;
+      }
+      p{
+        color: rgb(19, 18, 18);
+        font-size: 12px;
+      }
+      .box3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+      }
+      .p1{
+        font-size: 20px;
+        color: black;
+        margin: 0 200px 0 200px;
+        font-style: normal;
+        text-align: center;
+      }
+      .card1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+      }
+      .container1{
+        box-shadow: 0 0px 8px 0 rgba(0,0,0,0.4);
+        transition: 0.5s;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 50px;
+        border-radius: 10px;
+        height: 300px;
+        width: 300px;
+        position: relative;
+      }
+      .p2{
+            font-size: 15px;
+            color: black;
+            font-style: normal;
+            text-align: center;
+      }
+      .ribbon1 {
+        width: 40px;
+        height: 40px;
+        padding: 14px;
+        position: absolute;
+        right: px;
+        top: -37px;
+        text-align: center;
+        border-radius: 50px;
+        background-color: blue;
+        color: white;
+      }
+      .ribbon2 {
+        width: 40px;
+        height: 40px;
+        padding: 14px;
+        position: absolute;
+        right: px;
+        top: -37px;
+        text-align: center;
+        border-radius: 50px;
+        background-color: rgb(255, 230, 0);
+        color: white;
+      }
+      .ribbon3 {
+        width: 40px;
+        height: 40px;
+        padding: 14px;
+        position: absolute;
+        right: px;
+        top: -37px;
+        text-align: center;
+        border-radius: 50px;
+        background-color: rgb(255, 17, 0);
+        color: white;
+      }
+      .box4{
+        width: 1279.493px;
+        margin-left: 50px;
+        height: 400.792px;
+        border-radius: 177.586px 26.602px 26.602px 26.602px;
+        opacity: 0.2;
+        background: var(--light-color, #DFD7F9);
+        position: relative;
+      }
+      .subscribe{
+        font-size: 40px;
+        color: #101010;
+        margin-left: 229px;
+        margin-top: 142px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        text-align: center;
+      }
+      .form{
+        width: 485.947px;
+        height: 78.49px;
+        flex-shrink: 0;
+      }
+      .ribbon4{
+        width: 40px;
+        height: 40px;
+        padding: 14px;
+        position: absolute;
+        right: px;
+        top: -37px;
+        text-align: center;
+        border-radius: 50px;
+        background-color: rgb(255, 17, 0);
+        color: white;
+      }
